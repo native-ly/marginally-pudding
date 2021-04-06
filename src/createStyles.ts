@@ -6,10 +6,6 @@ export const createStyles = (
   size: Size,
   type: 'padding' | 'margin'
 ): ViewStyle => {
-  if (typeof size === 'number' || typeof size === 'string') {
-    return { [type]: typeSafeSize(size) }
-  }
-
   switch (size.length) {
     case 1: {
       return {
