@@ -1,6 +1,6 @@
-import { create } from './create'
-import type { Padding } from './types'
+import { createStyles } from './createStyles'
+import type { Size } from './types'
 
-export const pudding = (paddings: Padding) => {
-  return create(paddings, 'padding')
+export const pudding = (paddings: Size) => {
+  return createStyles(paddings, 'padding')
 }

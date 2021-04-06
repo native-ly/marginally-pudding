@@ -1,6 +1,6 @@
-import { create } from './create'
-import type { Padding } from './types'
+import { createStyles } from './createStyles'
+import type { Size } from './types'
 
-export const marginally = (margins: Padding) => {
-  return create(margins, 'margin')
+export const marginally = (margins: Size) => {
+  return createStyles(margins, 'margin')
 }

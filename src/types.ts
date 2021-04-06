@@ -1,7 +1,6 @@
 export type SingleSize = number | string
 
-// TODO rename
-export type Padding =
+export type Size =
   | SingleSize
   | [all: SingleSize]
   | [vertical: SingleSize, horizontal: SingleSize]

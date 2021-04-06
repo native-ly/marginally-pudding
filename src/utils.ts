@@ -1,9 +1,9 @@
 import type { SingleSize } from './types'
 
-export const typeSafePaddings = (padding: SingleSize) => {
-  if (typeof padding === 'string') {
-    return parseFloat(padding)
+export const typeSafeSize = (size: SingleSize) => {
+  if (typeof size === 'string') {
+    return parseFloat(size)
   }
 
-  return padding
+  return size
 }
