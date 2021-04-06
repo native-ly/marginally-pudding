@@ -38,7 +38,7 @@ export const createStyles = (
     }
 
     default: {
-      throw new Error('Unsupported padding value')
+      throw new Error(`Unsupported ${type} value`)
     }
   }
 }
