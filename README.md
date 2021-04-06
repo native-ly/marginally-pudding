@@ -1,4 +1,4 @@
-# [Marginally Pudding](https://github.com/native-ly/marginally-pudding)
+# [Marginally Pudding](https://github.com/native-ly/marginally-pudding) (WIP)
 
 [![NPM version](https://img.shields.io/npm/v/marginally-pudding?style=flat-square)](https://www.npmjs.com/package/marginally-pudding)
 [![NPM downloads](https://img.shields.io/npm/dm/marginally-pudding?style=flat-square)](https://www.npmjs.com/package/marginally-pudding)
