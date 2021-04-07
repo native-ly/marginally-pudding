@@ -1,7 +1,7 @@
 {
   "name": "marginally-pudding",
   "version": "0.0.0",
-  "description": "<TODO>",
+  "description": "Create margins and paddings in React Native in the way well known from CSS",
   "author": "Jakub Biesiada",
   "license": "MIT",
   "main": "lib/index.js",
@@ -28,8 +28,14 @@
     "react-native",
     "functions",
     "style",
+    "vertical",
+    "horizontal",
+    "top",
     "padding",
-    "margin"
+    "margin",
+    "bottom",
+    "right",
+    "left"
   ],
   "bugs": {
     "url": "https://github.com/native-ly/marginally-pudding/issues"

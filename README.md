@@ -9,7 +9,7 @@
 
 ## About
 
-<!-- TODO -->
+Create margins and paddings in React Native in the way well known from CSS
 
 ## How to Install
 
@@ -31,7 +31,7 @@ $ yarn add marginally-pudding
 
 ```js
 // TODO
-import {marginally, pudding} from 'marginally-pudding'
+import { marginally, pudding } from 'marginally-pudding'
 ```
 
 ## Options
@@ -40,7 +40,15 @@ import {marginally, pudding} from 'marginally-pudding'
 
 ```jsx
 const App = () => {
-  return <View style={{backgroundColor: 'red', ...marginally(20, 10), ...pudding(0, 20, 15) }} />
+  return (
+    <View
+      style={{
+        backgroundColor: 'red',
+        ...marginally(20, 10),
+        ...pudding(0, 20, 15),
+      }}
+    />
+  )
 }
 ```
 
