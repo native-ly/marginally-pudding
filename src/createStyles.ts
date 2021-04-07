@@ -1,11 +1,8 @@
 import { ViewStyle } from 'react-native'
-import type { Size } from './types'
+import type { Size, SpaceType } from './types'
 import { typeSafeSize } from './utils'
 
-export const createStyles = (
-  size: Size,
-  type: 'padding' | 'margin'
-): ViewStyle => {
+export const createStyles = (size: Size, type: SpaceType): ViewStyle => {
   switch (size.length) {
     case 1: {
       return {

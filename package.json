@@ -1,6 +1,6 @@
 {
   "name": "marginally-pudding",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "<TODO>",
   "author": "Jakub Biesiada",
   "license": "MIT",
@@ -23,7 +23,13 @@
     "url": "https://github.com/native-ly/marginally-pudding.git"
   },
   "keywords": [
-    "<TODO>"
+    "react",
+    "utility",
+    "react-native",
+    "functions",
+    "style",
+    "padding",
+    "margin"
   ],
   "bugs": {
     "url": "https://github.com/native-ly/marginally-pudding/issues"

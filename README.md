@@ -31,7 +31,7 @@ $ yarn add marginally-pudding
 
 ```js
 // TODO
-import {} from 'marginally-pudding'
+import {marginally, pudding} from 'marginally-pudding'
 ```
 
 ## Options
@@ -39,7 +39,9 @@ import {} from 'marginally-pudding'
 ## Example
 
 ```jsx
-// TODO
+const App = () => {
+  return <View style={{backgroundColor: 'red', ...marginally(20, 10), ...pudding(0, 20, 15) }} />
+}
 ```
 
 ## License
