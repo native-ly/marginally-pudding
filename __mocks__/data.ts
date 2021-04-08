@@ -1,8 +1,8 @@
-import { ViewStyle } from 'react-native'
+import type { FlexStyle } from 'react-native'
 import type { Size, SpaceType } from '../src/types'
 
 // TODO update type
-export const data = (type: SpaceType): [Size, ViewStyle][] => [
+export const data = (type: SpaceType): [Size, FlexStyle][] => [
   [
     [20],
     {

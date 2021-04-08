@@ -1,37 +1,35 @@
-import { ViewStyle } from 'react-native'
+import { FlexStyle } from 'react-native'
 import type { Size, SpaceType } from './types'
-import { typeSafeSize } from './utils'
 
-// TODO update type (not only ViewStyle)
-export const createStyles = (size: Size, type: SpaceType): ViewStyle => {
+export const createStyles = (size: Size, type: SpaceType): FlexStyle => {
   switch (size.length) {
     case 1: {
       return {
-        [type]: typeSafeSize(size[0]),
+        [type]: size[0],
       }
     }
 
     case 2: {
       return {
-        [`${type}Vertical`]: typeSafeSize(size[0]),
-        [`${type}Horizontal`]: typeSafeSize(size[1]),
+        [`${type}Vertical`]: size[0],
+        [`${type}Horizontal`]: size[1],
       }
     }
 
     case 3: {
       return {
-        [`${type}Top`]: typeSafeSize(size[0]),
-        [`${type}Horizontal`]: typeSafeSize(size[1]),
-        [`${type}Bottom`]: typeSafeSize(size[2]),
+        [`${type}Top`]: size[0],
+        [`${type}Horizontal`]: size[1],
+        [`${type}Bottom`]: size[2],
       }
     }
 
     case 4: {
       return {
-        [`${type}Top`]: typeSafeSize(size[0]),
-        [`${type}Right`]: typeSafeSize(size[1]),
-        [`${type}Bottom`]: typeSafeSize(size[2]),
-        [`${type}Left`]: typeSafeSize(size[3]),
+        [`${type}Top`]: size[0],
+        [`${type}Right`]: size[1],
+        [`${type}Bottom`]: size[2],
+        [`${type}Left`]: size[3],
       }
     }
 
