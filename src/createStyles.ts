@@ -2,6 +2,7 @@ import { ViewStyle } from 'react-native'
 import type { Size, SpaceType } from './types'
 import { typeSafeSize } from './utils'
 
+// TODO update type (not only ViewStyle)
 export const createStyles = (size: Size, type: SpaceType): ViewStyle => {
   switch (size.length) {
     case 1: {
