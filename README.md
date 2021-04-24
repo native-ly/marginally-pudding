@@ -53,7 +53,13 @@ const App = () => {
       style={{
         backgroundColor: 'red',
         ...marginally(20, 10),
+        // marginVertical: 20,
+        // marginHorizontal: 10,
+
         ...pudding(0, 20, 15),
+        // marginTop: 0,
+        // marginHorizontal: 20,
+        // marginBottom: 15,
       }}
     />
   )
