@@ -1,4 +1,4 @@
-# [Marginally Pudding](https://github.com/native-ly/marginally-pudding) (WIP)
+# [Marginally Pudding](https://github.com/native-ly/marginally-pudding)
 
 [![NPM version](https://img.shields.io/npm/v/marginally-pudding?style=flat-square)](https://www.npmjs.com/package/marginally-pudding)
 [![NPM downloads](https://img.shields.io/npm/dm/marginally-pudding?style=flat-square)](https://www.npmjs.com/package/marginally-pudding)
@@ -34,6 +34,15 @@ import { marginally, pudding } from 'marginally-pudding'
 ```
 
 ## Options
+
+You can use functions with next combinations:
+
+- `(all)`
+- `(vertical, horizontal)`
+- `(top, horizontal, bottom)`
+- `(top, right, bottom, left)`
+
+All params are `number` or `string` type
 
 ## Example
 
