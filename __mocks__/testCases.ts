@@ -1,4 +1,5 @@
 import type { FlexStyle } from 'react-native'
+
 import type { Size, SpaceType } from '../src/types'
 
 export const testCases = (type: SpaceType): [Size, FlexStyle][] => [
