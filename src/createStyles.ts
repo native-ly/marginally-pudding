@@ -1,4 +1,5 @@
 import { FlexStyle } from 'react-native'
+
 import type { Size, SpaceType } from './types'
 
 export const createStyles = (size: Size, type: SpaceType): FlexStyle => {
