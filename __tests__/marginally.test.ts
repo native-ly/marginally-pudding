@@ -1,9 +1,9 @@
 import { marginally } from '../src'
 
-import { data } from '../__mocks__/data'
+import { testCases } from '../__mocks__/testCases'
 
 describe('marginally', () => {
-  it.each(data('margin'))('should create margins', (params, expected) => {
+  it.each(testCases('margin'))('should create margins', (params, expected) => {
     expect(marginally(...params)).toEqual(expected)
   })
 

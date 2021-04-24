@@ -1,11 +1,14 @@
 import { pudding } from '../src'
 
-import { data } from '../__mocks__/data'
+import { testCases } from '../__mocks__/testCases'
 
 describe('pudding', () => {
-  it.each(data('padding'))('should create paddings', (params, expected) => {
-    expect(pudding(...params)).toEqual(expected)
-  })
+  it.each(testCases('padding'))(
+    'should create paddings',
+    (params, expected) => {
+      expect(pudding(...params)).toEqual(expected)
+    }
+  )
 
   it('should throw error for not supported params', () => {
     try {
