@@ -47,6 +47,10 @@ All params are `number` or `string` type
 ## Example
 
 ```jsx
+import React from 'react'
+import { View } from 'react-native'
+import { marginally, pudding } from 'marginally-pudding'
+
 const App = () => {
   return (
     <View
