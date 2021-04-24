@@ -61,9 +61,9 @@ const App = () => {
         // marginHorizontal: 10,
 
         ...pudding(0, 20, 15),
-        // marginTop: 0,
-        // marginHorizontal: 20,
-        // marginBottom: 15,
+        // paddingTop: 0,
+        // paddingHorizontal: 20,
+        // paddingBottom: 15,
       }}
     />
   )
