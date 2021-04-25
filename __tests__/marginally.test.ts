@@ -3,9 +3,12 @@ import { marginally } from '../src'
 import { testCases } from '../__mocks__/testCases'
 
 describe('marginally', () => {
-  it.each(testCases('margin'))('should create margins', (params, expected) => {
-    expect(marginally(...params)).toEqual(expected)
-  })
+  it.each(testCases('margin'))(
+    'should create margins for %j',
+    (params, expected) => {
+      expect(marginally(...params)).toEqual(expected)
+    }
+  )
 
   it('should throw error for not supported params', () => {
     try {

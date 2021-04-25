@@ -4,7 +4,7 @@ import { testCases } from '../__mocks__/testCases'
 
 describe('pudding', () => {
   it.each(testCases('padding'))(
-    'should create paddings',
+    'should create paddings for %j',
     (params, expected) => {
       expect(pudding(...params)).toEqual(expected)
     }
