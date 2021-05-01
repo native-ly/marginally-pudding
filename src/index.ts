@@ -1,3 +1,3 @@
 export { marginally } from './marginally'
 export { pudding } from './pudding'
-export * from './types'
+export type { SingleSize, Size } from './types'
