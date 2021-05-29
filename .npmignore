@@ -1,6 +1,7 @@
 src
 assets
 __tests__
+__mocks__
 coverage
 .husky
 .jest
