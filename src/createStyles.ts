@@ -34,8 +34,7 @@ export const createStyles = (size: Size, type: SpaceType): FlexStyle => {
       }
     }
 
-    default: {
+    default:
       throw new Error(`Unsupported ${type} value`)
-    }
   }
 }
