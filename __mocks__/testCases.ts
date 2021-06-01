@@ -64,4 +64,31 @@ export const testCases = (type: SpaceType): [Size, FlexStyle][] => [
       [`${type}Left`]: 4660,
     },
   ],
+  [
+    [undefined, null, 12] as any,
+    {
+      [`${type}Bottom`]: 12,
+    },
+  ],
+  [
+    [15, 10, undefined] as any,
+    {
+      [`${type}Top`]: 15,
+      [`${type}Horizontal`]: 10,
+    },
+  ],
+  [[undefined, null, null, null] as any, {}],
+  [
+    ['20', undefined] as any,
+    {
+      [`${type}Vertical`]: '20',
+    },
+  ],
+  [
+    [null, 0] as any,
+    {
+      [`${type}Horizontal`]: 0,
+    },
+  ],
+  [[null] as any, {}],
 ]
