@@ -3,7 +3,7 @@ import { FlexStyle } from 'react-native'
 import type { Size, SpaceType } from './types'
 
 export const createStyles = (size: Size, type: SpaceType): FlexStyle => {
-  const unsupportedValues = [null, undefined] as any
+  const unsupportedValues = [null, undefined, NaN, false, true, ''] as any
 
   switch (size.length) {
     case 1: {

@@ -90,5 +90,6 @@ export const testCases = (type: SpaceType): [Size, FlexStyle][] => [
       [`${type}Horizontal`]: 0,
     },
   ],
+  [['', false, true, NaN] as any, {}],
   [[null] as any, {}],
 ]
