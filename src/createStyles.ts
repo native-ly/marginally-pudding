@@ -1,6 +1,7 @@
 import { FlexStyle } from 'react-native'
 
-import type { Size, SpaceType } from './types'
+import { SpaceType } from './SpaceType'
+import type { Size } from './types'
 
 export const createStyles = (size: Size, type: SpaceType): FlexStyle => {
   switch (size.length) {
