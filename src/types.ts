@@ -5,5 +5,3 @@ export type Size =
   | [vertical: SingleSize, horizontal: SingleSize]
   | [top: SingleSize, horizontal: SingleSize, bottom: SingleSize]
   | [top: SingleSize, right: SingleSize, bottom: SingleSize, left: SingleSize]
-
-export type SpaceType = 'padding' | 'margin'
