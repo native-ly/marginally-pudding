@@ -1,7 +1,7 @@
 import { FlexStyle } from 'react-native'
 
 import { marginally, pudding } from '../src'
-import type { Size } from '../src/types'
+import type { Size } from '../src'
 import { SpaceType } from '../src/SpaceType'
 
 interface TestCase {
@@ -73,24 +73,25 @@ const testCases = (type: SpaceType): TestCase[] => [
   },
 ]
 
+// TODO add types
 describe.each([
   {
     name: 'marginally',
     util: marginally,
     cases: SpaceType.Margin,
-    typeSingular: 'margin',
-    typePlural: 'margins',
+    styleNameSingular: 'margin',
+    styleNamePlural: 'margins',
   },
   {
     name: 'pudding',
     util: pudding,
     cases: SpaceType.Padding,
-    typeSingular: 'padding',
-    typePlural: 'paddings',
+    styleNameSingular: 'padding',
+    styleNamePlural: 'paddings',
   },
-])('$name', ({ util, cases, typePlural, typeSingular }) => {
+])('$name', ({ util, cases, styleNamePlural, styleNameSingular }) => {
   it.each(testCases(cases))(
-    `should create ${typePlural} for $params`,
+    `should create ${styleNamePlural} for $params`,
     ({ params, expected }) => {
       expect(util(...params)).toEqual(expected)
     }
@@ -100,7 +101,7 @@ describe.each([
     try {
       util(...([40, 30, 20, 10, 0] as any))
     } catch (e) {
-      expect(e.message).toBe(`Unsupported ${typeSingular} value`)
+      expect(e.message).toBe(`Unsupported ${styleNameSingular} value`)
     }
   })
 })
