@@ -96,6 +96,7 @@ describe.each([
     }
   )
 
+  // TODO update
   it('should throw error for not supported params', () => {
     try {
       util(...([40, 30, 20, 10, 0] as any))
