@@ -27,7 +27,7 @@ $ yarn add marginally-pudding
 
 ## Getting Started
 
-**• Connect libary with project using ES6 import:**
+**• Connect the libary with the project using ES6 import:**
 
 ```js
 import { marginally, pudding } from 'marginally-pudding'
@@ -35,7 +35,7 @@ import { marginally, pudding } from 'marginally-pudding'
 
 ## Options
 
-You can use functions with next combinations:
+You can use the functions with the following combinations:
 
 - `(all)`
 - `(vertical, horizontal)`
