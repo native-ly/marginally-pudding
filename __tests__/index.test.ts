@@ -96,7 +96,7 @@ describe.each([
     }
   )
 
-  it('should throw error for not supported params', () => {
+  it('should throw an error for unsupported params', () => {
     try {
       util(...([40, 30, 20, 10, 0] as any))
     } catch (e) {
