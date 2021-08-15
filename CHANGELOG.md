@@ -4,4 +4,4 @@
 
 ### Features
 
-- added `marginally` & `pudding` functions
+- added the `marginally` & `pudding` functions
