@@ -28,7 +28,7 @@ $ yarn add marginally-pudding
 
 ## Getting Started
 
-**• Connect the library with the project using ES6 import:**
+**Connect the library with the project using ES6 import:**
 
 ```js
 import { marginally, pudding } from 'marginally-pudding'
