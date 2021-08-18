@@ -1,12 +1,12 @@
 # [Marginally Pudding](https://github.com/native-ly/marginally-pudding)
 
-[![NPM version](https://img.shields.io/npm/v/marginally-pudding?style=flat-square)](https://www.npmjs.com/package/marginally-pudding)
-[![NPM downloads](https://img.shields.io/npm/dm/marginally-pudding?style=flat-square)](https://www.npmjs.com/package/marginally-pudding)
-[![NPM license](https://img.shields.io/npm/l/marginally-pudding?style=flat-square)](https://www.npmjs.com/package/marginally-pudding)
+[![NPM version](https://flat.badgen.net/npm/v/marginally-pudding)](https://www.npmjs.com/package/marginally-pudding)
+[![NPM downloads](https://flat.badgen.net/npm/dm/marginally-pudding)](https://www.npmjs.com/package/marginally-pudding)
+[![NPM license](https://flat.badgen.net/npm/license/marginally-pudding)](https://www.npmjs.com/package/marginally-pudding)
 [![run in expo snack](https://img.shields.io/badge/Run%20in%20Snack-4630EB?style=flat-square&logo=EXPO&labelColor=FFF&logoColor=000)](https://snack.expo.io/@jbiesiada/marginally-pudding)
-[![Codecov](https://img.shields.io/codecov/c/github/native-ly/marginally-pudding?style=flat-square)](https://codecov.io/gh/native-ly/marginally-pudding)
-[![Travis](https://img.shields.io/travis/com/native-ly/marginally-pudding/main?style=flat-square)](https://travis-ci.com/native-ly/marginally-pudding)
-<!-- TODO bumdlephobia/packagephobia -->
+[![Codecov](https://flat.badgen.net/codecov/c/github/native-ly/marginally-pudding)](https://codecov.io/gh/native-ly/marginally-pudding)
+[![Travis](https://flat.badgen.net/travis/native-ly/marginally-pudding)](https://travis-ci.com/native-ly/marginally-pudding)
+[![Bundle size](https://flat.badgen.net/packagephobia/install/marginally-pudding)](https://packagephobia.com/result?p=marginally-pudding)
 
 ## About
 
