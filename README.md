@@ -5,7 +5,7 @@
 [![NPM license](https://flat.badgen.net/npm/license/marginally-pudding)](https://www.npmjs.com/package/marginally-pudding)
 [![run in expo snack](https://img.shields.io/badge/Run%20in%20Snack-4630EB?style=flat-square&logo=EXPO&labelColor=FFF&logoColor=000)](https://snack.expo.io/@jbiesiada/marginally-pudding)
 [![Codecov](https://flat.badgen.net/codecov/c/github/native-ly/marginally-pudding)](https://codecov.io/gh/native-ly/marginally-pudding)
-[![Travis](https://flat.badgen.net/travis/native-ly/marginally-pudding)](https://travis-ci.com/native-ly/marginally-pudding)
+[![Travis](https://flat.badgen.net/travis/native-ly/marginally-pudding)](https://app.travis-ci.com/github/native-ly/marginally-pudding)
 [![Bundle size](https://flat.badgen.net/packagephobia/install/marginally-pudding)](https://packagephobia.com/result?p=marginally-pudding)
 
 ## About
