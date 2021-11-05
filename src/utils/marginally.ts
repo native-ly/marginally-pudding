@@ -1,5 +1,5 @@
 import { createStyles } from './createStyles'
-import { SpaceType } from '../SpaceType'
+import { SpaceType } from '../constants'
 import type { Size } from '../types'
 
 export const marginally = (...margins: Size) => {
