@@ -1,37 +1,45 @@
 import { FlexStyle } from 'react-native'
 
-import { SpaceType } from '../SpaceType'
+import { SpaceType } from '../constants'
 import type { Size } from '../types'
 
 export const createStyles = (size: Size, type: SpaceType): FlexStyle => {
   switch (size.length) {
     case 1: {
+      const [all] = size
+
       return {
-        [type]: size[0],
+        [type]: all,
       }
     }
 
     case 2: {
+      const [vertical, horizontal] = size
+
       return {
-        [`${type}Vertical`]: size[0],
-        [`${type}Horizontal`]: size[1],
+        [`${type}Vertical`]: vertical,
+        [`${type}Horizontal`]: horizontal,
       }
     }
 
     case 3: {
+      const [top, horizontal, bottom] = size
+
       return {
-        [`${type}Top`]: size[0],
-        [`${type}Horizontal`]: size[1],
-        [`${type}Bottom`]: size[2],
+        [`${type}Top`]: top,
+        [`${type}Horizontal`]: horizontal,
+        [`${type}Bottom`]: bottom,
       }
     }
 
     case 4: {
+      const [top, right, bottom, left] = size
+
       return {
-        [`${type}Top`]: size[0],
-        [`${type}Right`]: size[1],
-        [`${type}Bottom`]: size[2],
-        [`${type}Left`]: size[3],
+        [`${type}Top`]: top,
+        [`${type}Right`]: right,
+        [`${type}Bottom`]: bottom,
+        [`${type}Left`]: left,
       }
     }
 
