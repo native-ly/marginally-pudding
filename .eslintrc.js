@@ -10,8 +10,10 @@ module.exports = {
     'react-native/react-native': true,
     node: true,
     jest: true,
+    // TODO? browser
   },
   rules: {
+    // TODO
     'react-native/no-unused-styles': 'error',
     'react-native/split-platform-components': 'error',
     'react/prop-types': 'off',
@@ -20,10 +22,11 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 6,
     sourceType: 'module',
-    ecmaFeatures: {
-      jsx: true,
-    },
+    // ecmaFeatures: {
+    //   jsx: true,
+    // },
   },
+  // ??
   settings: {
     react: {
       version: 'detect',
