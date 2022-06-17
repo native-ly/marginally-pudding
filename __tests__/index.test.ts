@@ -1,7 +1,6 @@
 import { FlexStyle } from 'react-native'
 
-import { marginally, pudding } from '../src'
-import type { Size } from '../src'
+import { marginally, pudding, type Size } from '../src'
 import { SpaceType } from '../src/SpaceType'
 
 interface TestCase {
@@ -73,7 +72,6 @@ const testCases = (type: SpaceType): TestCase[] => [
   },
 ]
 
-// TODO? add types
 describe.each([
   {
     name: 'marginally',
