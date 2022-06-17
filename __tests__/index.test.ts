@@ -1,14 +1,14 @@
 import { FlexStyle } from 'react-native'
 
 import { marginally, pudding, type Size } from '../src'
-import { SpaceType } from '../src/SpaceType'
+import { Space } from '../src/constants'
 
 interface TestCase {
   readonly params: Size
   readonly expected: FlexStyle
 }
 
-const testCases = (type: SpaceType): TestCase[] => [
+const testCases = (type: Space): TestCase[] => [
   {
     params: [20],
     expected: {
@@ -76,14 +76,14 @@ describe.each([
   {
     name: 'marginally',
     util: marginally,
-    cases: SpaceType.Margin,
+    cases: Space.Margin,
     styleNameSingular: 'margin',
     styleNamePlural: 'margins',
   },
   {
     name: 'pudding',
     util: pudding,
-    cases: SpaceType.Padding,
+    cases: Space.Padding,
     styleNameSingular: 'padding',
     styleNamePlural: 'paddings',
   },
